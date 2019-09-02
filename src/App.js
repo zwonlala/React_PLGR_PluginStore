@@ -48,15 +48,46 @@ class App extends React.Component {
     const plugins = this.state.plugins;
     
     return (
-      <div style={{minWidth: "700px", display:"flex", justifyContent:"center", alignContent:"flex-start", flexWrap:"wrap"}}>
-        {plugins.map((value) => (
-          <PluginItem 
-          name={value.name} 
-          image={value.image}
-          detail={value.detail}
-          download={value.download} />
-        ))
-      }
+      <div  style={{ 
+        display:"flex", 
+        justifyContent:"center", 
+        alignContent:"flex-top", 
+        flexWrap:"wrap"}}>
+
+        {/* header */}
+        <div>
+          <h1>This is header</h1>
+        </div>
+
+        {/* body */}
+        <div style={{
+          minWidth: "700px", 
+          display:"flex", 
+          justifyContent:"center", 
+          alignContent:"center", 
+          flexWrap:"wrap",
+
+          width:"90%",
+          height:"90%"
+        }}>
+          {plugins.map((value) => (
+            <PluginItem 
+            name={value.name} 
+            image={value.image}
+            detail={value.detail}
+            download={value.download} />
+          ))
+        }
+        </div>
+
+
+        {/* footer */}
+        <div>
+        <h1>This is footer</h1>
+
+        </div>
+
+
       </div>
     );
 
