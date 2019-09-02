@@ -1,37 +1,45 @@
 .plugin_box {
     width:30%;
-    height:500px;
-    min-width:300px; 
+    /* height:500px; */
+    /* min-width:300px;  */
     margin:10px;
 
     /* setting for check boundary */
-    background-color:red; 
+    /* background-color:red;  */
 
     text-align:center; 
     margin-bottom:20px;
+
+    border-radius: 20px 20px 20px 20px / 20px 20px 20px 20px;
+    background-color: white 
 }
 
 
 .plugin_title {
-    text-align: center;
+    text-align: left;
+    padding-left: 15%;
 
     /* setting for check boundary */
-    background-color:blue;
+    /* background-color:blue; */
 }
 
 
 .plugin_image {
-    width: 100%; 
-    height: 300px;
+    width: 70%;
+    height: 50%; 
+    /* height: 70%; */
 }
 
 
 .plugin_link {
-    margin-top: 70px;
-    width:100%;
+    margin-top: 30px;
+    width:90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0;
 
     /* setting for check boundary */
-    background-color: yellow;
+    /* background-color: yellow; */
 
     display: flex;
     justify-content:space-around;
@@ -41,14 +49,27 @@
 .plugin_link_detail {
     text-align:left;
     font-size:2.0em;
-    width:50%;
+    margin: 0;
+    /* width:30%; */
     float:left;
+}
+
+
+.plugin_link_detail a {
+    color: black;
 }
 
 
 .plugin_link_download {
     text-align:right;
     font-size:2.0em;
-    width:50%;
+    margin: 0;
+
+    /* width:30%; */
     float:right
+}
+
+
+.plugin_link_download a {
+    color: black;
 }
