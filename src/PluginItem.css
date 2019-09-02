@@ -1,0 +1,54 @@
+.plugin_box {
+    width:30%;
+    height:500px;
+    min-width:300px; 
+    margin:10px;
+
+    /* setting for check boundary */
+    background-color:red; 
+
+    text-align:center; 
+    margin-bottom:20px;
+}
+
+
+.plugin_title {
+    text-align: center;
+
+    /* setting for check boundary */
+    background-color:blue;
+}
+
+
+.plugin_image {
+    width: 100%; 
+    height: 300px;
+}
+
+
+.plugin_link {
+    margin-top: 70px;
+    width:100%;
+
+    /* setting for check boundary */
+    background-color: yellow;
+
+    display: flex;
+    justify-content:space-around;
+}
+
+
+.plugin_link_detail {
+    text-align:left;
+    font-size:2.0em;
+    width:50%;
+    float:left;
+}
+
+
+.plugin_link_download {
+    text-align:right;
+    font-size:2.0em;
+    width:50%;
+    float:right
+}
